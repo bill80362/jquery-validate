@@ -1,9 +1,13 @@
-#  jQuery Validation筆記  
+#  jQuery Validation筆記   
 
+這個針對簡單的網站真的不用寫一大堆未來難管理的驗證
+
+```
 <script src="/js/jquery.min.js"></script>
 <script src="/js/jquery.validate.min.js"></script>
 
 <script>
+
   //在jQuery Validation中加入自訂規則isMultiple100(100的倍數)
   jQuery.validator.addMethod("isMultiple100", function(value, element) {
       if(value) {
@@ -63,3 +67,4 @@
     </div>
 </div>
 
+```
